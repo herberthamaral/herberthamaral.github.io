@@ -1,0 +1,46 @@
+<p>Since Django 1.4 it is possible to use project templates. This means that you can start off your Django project
+with a different project structure, which also means that you can avoid some initial configuration hassle.</p>
+
+<p>Django follows Python&rsquo;s principle of &ldquo;explicit is better than implicit&rdquo;. And this is the justification I&rsquo;ve got when I
+asked why Django does not have some configurations done by default. I think &ldquo;convention over configuration&rdquo; is not
+necessarily &ldquo;explicit is better than implicit&rdquo;&rsquo;s enemy. Both can live together as long you keep the configurations
+explicit.</p>
+
+<p>Thinking about that I&rsquo;ve decided to write a project template which eliminates some of the Django&rsquo;s annoyances when
+starting a project, mainly related to paths (templates, media and static). This is specially useful for newcomers so
+they don&rsquo;t lose a lot of time configuring the project.</p>
+
+<h3>Show me it working!</h3>
+
+<p>You can start off a project using this template like this:</p>
+
+<pre>
+$ django-admin.py startproject myproject \
+  --template=https://github.com/herberthamaral/django_project_template/archive/master.zip
+$ cd myproject
+$ python manage.py runserver
+</pre>
+
+
+<p>At this point you can point out your browser to <code><a href="http://localhost:8000">http://localhost:8000</a></code> and you can see Django&rsquo;s initial
+page. But, if you point it to <code><a href="http://localhost:8000/static/readme.txt">http://localhost:8000/static/readme.txt</a></code>, you can also see the static folder&rsquo;s
+configuration working. The same for the media folder: <code><a href="http://localhost:8000/media/readme.txt">http://localhost:8000/media/readme.txt</a></code>.</p>
+
+<p>The template path is also configured. And there is a example template located in
+<code>myproject/templates/index.html</code>. Yup, it is the initial Django&rsquo;s template, slightly modified.</p>
+
+<h3>Limitations and workarounds</h3>
+
+<p>Not everything is a sea of roses, though:</p>
+
+<ul>
+<li>Django does not offer a way to change the project folder name. For that reason, I&rsquo;ve been forced to add a custom code
+in manage.py in order to change this folder name to match the application name.</li>
+<li>There is some extra code in urls.py too.</li>
+</ul>
+
+
+<h3>Final words</h3>
+
+<p>I hope this can solve some problems for newcomers willing to learn Django. Please <a href="/contact.html">contact me</a>
+if you find a bug or if you have a suggestion.</p>

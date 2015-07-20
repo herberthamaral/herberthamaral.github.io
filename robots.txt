@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://herberthamaral.com/sitemap.xml 
