@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Herberth's blog]]></title>
-  <link href="http://herberthamaral.com/atom.xml" rel="self"/>
-  <link href="http://herberthamaral.com/"/>
-  <updated>2015-07-19T21:43:25-03:00</updated>
-  <id>http://herberthamaral.com/</id>
+  <link href="http://herberthamaral.github.io/atom.xml" rel="self"/>
+  <link href="http://herberthamaral.github.io/"/>
+  <updated>2015-07-20T18:07:18-03:00</updated>
+  <id>http://herberthamaral.github.io/</id>
   <author>
     <name><![CDATA[Herberth Amaral]]></name>
     
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Mestrado a Verdadeira Graduação]]></title>
-    <link href="http://herberthamaral.com/blog/2015/06/07/mestrado-a-verdadeira-gradua%C3%A7%C3%A3o/"/>
-    <updated>2015-06-07T00:00:00-03:00</updated>
-    <id>http://herberthamaral.com/blog/2015/06/07/mestrado-a-verdadeira-graduação</id>
+    <title type="html"><![CDATA[Mestrado: A Verdadeira Graduação]]></title>
+    <link href="http://herberthamaral.github.io/blog/2015/06/07/mestrado-a-verdadeira-graduacao/"/>
+    <updated>2015-06-07T17:57:21-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2015/06/07/mestrado-a-verdadeira-graduacao</id>
     <content type="html"><![CDATA[<p>Depois de mais de dois anos sem blogar, volto com um assunto que demanda um pouco de reflexão.</p>
 
 <p>Decidi fazer um mestrado porque acredito que me trará conhecimentos importantes
@@ -72,10 +72,10 @@ mais difícil (1º semestre) já está chegando ao fim.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Sobre O Jquery Fundamentals]]></title>
-    <link href="http://herberthamaral.com/blog/2013/02/25/sobre-o-jquery-fundamentals/"/>
-    <updated>2013-02-25T00:00:00-03:00</updated>
-    <id>http://herberthamaral.com/blog/2013/02/25/sobre-o-jquery-fundamentals</id>
+    <title type="html"><![CDATA[Sobre O jQuery Fundamentals]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/25/sobre-o-jquery-fundamentals/"/>
+    <updated>2013-02-25T12:00:00-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/25/sobre-o-jquery-fundamentals</id>
     <content type="html"><![CDATA[<p>Comecei o processo de tradução do jQuery Fundamentals <a
 href="https://github.com/rmurphey/jqfundamentals/commit/fce468875d0b367f7021bfb7ef11d0fd48426638">há quase 3 anos</a>,
 quando meu antigo blog ainda não havia sido destruído pela minha incompetência (de não ter um backup em outro local) e
@@ -101,10 +101,10 @@ fique a vontade :-)</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[One Who Has No Dog Hunts With a Cat a Sed Story]]></title>
-    <link href="http://herberthamaral.com/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story/"/>
-    <updated>2013-02-22T00:00:00-03:00</updated>
-    <id>http://herberthamaral.com/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story</id>
+    <title type="html"><![CDATA[Commands Conversion Table From MySQL to PostgreSQL]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story/"/>
+    <updated>2013-02-22T12:00:00-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story</id>
     <content type="html"><![CDATA[<p>The above title (One who has no dog hunts with a cat - &ldquo;Quem não tem cão caça com gato&rdquo;) is a portuguese proverb which
 exemplifies the developer routine regarding to adapting tools and creating others when there are no other available.</p>
 
@@ -174,10 +174,10 @@ href="http://gnuwin32.sourceforge.net/packages/sed.htm">sed for windows</a> or c
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Commands Conversion Table From Mysql to Postgresql]]></title>
-    <link href="http://herberthamaral.com/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql/"/>
-    <updated>2013-02-10T00:00:00-02:00</updated>
-    <id>http://herberthamaral.com/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql</id>
+    <title type="html"><![CDATA[Commands Conversion Table From MySQL to PostgreSQL]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql/"/>
+    <updated>2013-02-10T13:00:00-02:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql</id>
     <content type="html"><![CDATA[<p>A lot of companies are moving or considering moving to PostgreSQL today. The reasons vary a lot and it is not the scope
 of this blog post to address those reasons, but to help the developers to do an easier adoption of new technology by
 showing a simple command conversion table.</p>
@@ -230,9 +230,9 @@ enough for small to medium setups.</p>
   
   <entry>
     <title type="html"><![CDATA[A New Template for Django Projects]]></title>
-    <link href="http://herberthamaral.com/blog/2013/02/04/a-new-template-for-django-projects/"/>
-    <updated>2013-02-04T00:00:00-02:00</updated>
-    <id>http://herberthamaral.com/blog/2013/02/04/a-new-template-for-django-projects</id>
+    <link href="http://herberthamaral.github.io/blog/2013/02/04/a-new-template-for-django-projects/"/>
+    <updated>2013-02-04T13:00:00-02:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/04/a-new-template-for-django-projects</id>
     <content type="html"><![CDATA[<p>Since Django 1.4 it is possible to use project templates. This means that you can start off your Django project
 with a different project structure, which also means that you can avoid some initial configuration hassle.</p>
 
@@ -277,16 +277,16 @@ in manage.py in order to change this folder name to match the application name.<
 
 <h3>Final words</h3>
 
-<p>I hope this can solve some problems for newcomers willing to learn Django. Please <a href="http://herberthamaral.com/contact.html">contact me</a>
+<p>I hope this can solve some problems for newcomers willing to learn Django. Please <a href="http://herberthamaral.github.io/contact.html">contact me</a>
 if you find a bug or if you have a suggestion.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A New Era a New Blog]]></title>
-    <link href="http://herberthamaral.com/blog/2013/02/02/a-new-era-a-new-blog/"/>
-    <updated>2013-02-02T00:00:00-02:00</updated>
-    <id>http://herberthamaral.com/blog/2013/02/02/a-new-era-a-new-blog</id>
+    <title type="html"><![CDATA[A New Era, a New Blog]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/02/a-new-era-a-new-blog/"/>
+    <updated>2013-02-02T13:00:00-02:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/02/a-new-era-a-new-blog</id>
     <content type="html"><![CDATA[<p>So, my old blog was wiped out, sent to oblivion, and I had no backups. So it is good to start over again. Probably in
 the right way with git-based backups (using <a href="https://github.com/herberthamaral/herberthamaral.github.io/">Github</a>).</p>
 ]]></content>

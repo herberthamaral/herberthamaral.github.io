@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://herberthamaral.com/sitemap.xml 
+Sitemap: http://herberthamaral.github.io/sitemap.xml 

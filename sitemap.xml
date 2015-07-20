@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://herberthamaral.com/blog/2015/06/07/mestrado-a-verdadeira-gradua%C3%A7%C3%A3o/</loc>
-    <lastmod>2015-06-07T00:00:00-03:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2015/06/07/mestrado-a-verdadeira-graduacao/</loc>
+    <lastmod>2015-06-07T17:57:21-03:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/2013/02/25/sobre-o-jquery-fundamentals/</loc>
-    <lastmod>2013-02-25T00:00:00-03:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2013/02/25/sobre-o-jquery-fundamentals/</loc>
+    <lastmod>2013-02-25T12:00:00-03:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story/</loc>
-    <lastmod>2013-02-22T00:00:00-03:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story/</loc>
+    <lastmod>2013-02-22T12:00:00-03:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql/</loc>
-    <lastmod>2013-02-10T00:00:00-02:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql/</loc>
+    <lastmod>2013-02-10T13:00:00-02:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/2013/02/04/a-new-template-for-django-projects/</loc>
-    <lastmod>2013-02-04T00:00:00-02:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2013/02/04/a-new-template-for-django-projects/</loc>
+    <lastmod>2013-02-04T13:00:00-02:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/2013/02/02/a-new-era-a-new-blog/</loc>
-    <lastmod>2013-02-02T00:00:00-02:00</lastmod>
+    <loc>http://herberthamaral.github.io/blog/2013/02/02/a-new-era-a-new-blog/</loc>
+    <lastmod>2013-02-02T13:00:00-02:00</lastmod>
   </url>
   <url>
-    <loc>http://herberthamaral.com/blog/archives/</loc>
+    <loc>http://herberthamaral.github.io/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://herberthamaral.com/</loc>
+    <loc>http://herberthamaral.github.io/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/django/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/mysql/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/postgresql/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/sed/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/unix/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/jquery/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/traducao/</loc>
+  </url>
+  <url>
+    <loc>http://herberthamaral.github.io/blog/categories/mestrado/</loc>
   </url>
 </urlset>

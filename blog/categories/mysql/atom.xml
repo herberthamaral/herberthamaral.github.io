@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mysql | Herberth's blog]]></title>
+  <link href="http://herberthamaral.github.io/blog/categories/mysql/atom.xml" rel="self"/>
+  <link href="http://herberthamaral.github.io/"/>
+  <updated>2015-07-20T18:07:18-03:00</updated>
+  <id>http://herberthamaral.github.io/</id>
+  <author>
+    <name><![CDATA[Herberth Amaral]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Commands Conversion Table From MySQL to PostgreSQL]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql/"/>
+    <updated>2013-02-10T13:00:00-02:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/10/commands-conversion-table-from-mysql-to-postgresql</id>
+    <content type="html"><![CDATA[<p>A lot of companies are moving or considering moving to PostgreSQL today. The reasons vary a lot and it is not the scope
+of this blog post to address those reasons, but to help the developers to do an easier adoption of new technology by
+showing a simple command conversion table.</p>
+
+<p>Although the blog title says MySQL to PostgreSQL, it can serve as a reverse path (PostgreSQL to MySQL). So, here it is:</p>
+
+<table class="table table-bordered table-striped table-condensed">
+
+<tr>
+    <th>MySQL command</th>
+    <th>PostgreSQL equivalent</th>
+</tr>
+<tr>
+    <td>show databases;</td>
+    <td>\\l</td>
+</tr>
+<tr>
+    <td>use somedb;</td>
+    <td>\\c somedb </td>
+</tr>
+<tr>
+    <td>show tables;</td>
+    <td>\\dt </td>
+</tr>
+<tr>
+    <td>describe table sometable;</td>
+    <td>$ pg_dump -U postgres -t mytable --schema-only mydb</td>
+</tr>
+<tr>
+    <td>show schemas </td>
+    <td>\\dn</td>
+</tr>
+
+</table>
+
+
+<h3>Some notes</h3>
+
+<p>There&rsquo;s a lot of differences between MySQL to PostgreSQL. Some you need to address every single time (like the
+differences between commands I&rsquo;ve pointed out). Others are less frequent, like creating databases, users or setting up a
+replication.</p>
+
+<p>If you are planning to learn or move to PostgreSQL from MySQL, I&rsquo;d like to recommend that you learn the differences
+between authentication, which includes creating and giving priveleges to users and creating databases. It should be good
+enough for small to medium setups.</p>
+
+<p>Any important command that I&rsquo;ve missed? Please, drop a line in the comments :-)</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sed | Herberth's blog]]></title>
+  <link href="http://herberthamaral.github.io/blog/categories/sed/atom.xml" rel="self"/>
+  <link href="http://herberthamaral.github.io/"/>
+  <updated>2015-07-20T18:07:18-03:00</updated>
+  <id>http://herberthamaral.github.io/</id>
+  <author>
+    <name><![CDATA[Herberth Amaral]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Commands Conversion Table From MySQL to PostgreSQL]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story/"/>
+    <updated>2013-02-22T12:00:00-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/22/one-who-has-no-dog-hunts-with-a-cat-a-sed-story</id>
+    <content type="html"><![CDATA[<p>The above title (One who has no dog hunts with a cat - &ldquo;Quem não tem cão caça com gato&rdquo;) is a portuguese proverb which
+exemplifies the developer routine regarding to adapting tools and creating others when there are no other available.</p>
+
+<p>Those who use an IDE (like Visual Studio) and a static-typed language are quite used to use the &ldquo;refact&rdquo; tool. It allows
+you to rename variables and methods, extract methods, rename classes and more, without breaking the code. There are even
+other extensions, like resharper, which make it even more powerful.</p>
+
+<p>Non-static-language programmers, like me, are often jealous of what C# guys can do without too much effort.  Because of
+the nature of dynamic languages, is very hard to develop a tool to do exactly what Visual Studio can do. We have to find
+our way to fix our code in multiple places. And we often do it the hard way.</p>
+
+<p>Sometime ago I read a serie of posts called <a href="http://blog.sanctum.geek.nz/series/unix-as-ide/">&ldquo;Unix as an IDE&rdquo;</a> and it taught me how to use my enviroment to edit code more efficiently.</p>
+
+<p>One of the things the series of posts havent showed me is the power of <strong>sed</strong>. This simple tool can do almost the same
+thing as Visual Studio&rsquo;s refact tool does sometimes.</p>
+
+<p>Let&rsquo;s suppose we are maintaining an old PHP project that has queries all over the place and which those uses
+&ldquo;mysql_db_query&rdquo; (now deprecated) instead of &ldquo;mysql_query&rdquo;. Here&rsquo;s a life-saving command:</p>
+
+<pre><code>$ find /your/project/folder/ -name "*.php" | xargs sed -i s/mysql_db_query/mysql_query/
+</code></pre>
+
+<p>We can read it as follows: &ldquo;find every file ending with *.php in folder /your/project/folder and then substitute
+mysql_db_query with mysql_query in each one of them&rdquo;. Pretty simple, huh?</p>
+
+<h3>A more complicated example</h3>
+
+
+<p>I&rsquo;m working on a Django project which uses <a href="https://github.com/tzangms/django-bootstrap-form">bootstrapform</a>
+to better rendering some forms. However, since we&rsquo;re moving to <a
+href="http://django-crispy-forms.readthedocs.org/en/latest/">Crispy Forms</a>, bootstrapform is no longer needed. So
+let&rsquo;s remove it!</p>
+
+<p>First, let&rsquo;s change <pre> %}</pre>  to <pre> %}</pre> inside templates. We
+can do it as follows:</p>
+
+<pre><code>$ sed --in-place 's/ {% load bootstrap  %}/{% load crispy_forms_tags  %}/' `find . -name "*.html"`
+</code></pre>
+
+<p>The command is slightly different from the previous one, but it works like a charm.</p>
+
+<p>The second one is a bit more difficult. We need to change</p>
+
+<pre>{{any_form|bootstrap }}</pre>
+
+
+<p></p>
+
+<p>to</p>
+
+<pre>{% crispy any_form %}</pre>
+
+
+<p></p>
+
+<p>There are no other way: you need to have some regex knowledge to pick this up:</p>
+
+<pre><code>$ sed --in-place 's//{% crispy \1  %}/' `find . -name "*.html"`
+</code></pre>
+
+<p>In this case, <a href="http://www.regular-expressions.info/brackets.html">grouping</a> saved my day. It is important to
+remember that sed does not only work on source code files: it works everywhere.</p>
+
+<p>If you are a programmer that uses Unix, keep your sed skills sharp. If you uses windows to work, I can recommend <a
+href="http://gnuwin32.sourceforge.net/packages/sed.htm">sed for windows</a> or cygwin for a more complete environment.</p>
+]]></content>
+  </entry>
+  
+</feed>

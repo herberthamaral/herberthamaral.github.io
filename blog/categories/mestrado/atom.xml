@@ -1,4 +1,24 @@
-<p>Depois de mais de dois anos sem blogar, volto com um assunto que demanda um pouco de reflexão.</p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mestrado | Herberth's blog]]></title>
+  <link href="http://herberthamaral.github.io/blog/categories/mestrado/atom.xml" rel="self"/>
+  <link href="http://herberthamaral.github.io/"/>
+  <updated>2015-07-20T18:07:18-03:00</updated>
+  <id>http://herberthamaral.github.io/</id>
+  <author>
+    <name><![CDATA[Herberth Amaral]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mestrado: A Verdadeira Graduação]]></title>
+    <link href="http://herberthamaral.github.io/blog/2015/06/07/mestrado-a-verdadeira-graduacao/"/>
+    <updated>2015-06-07T17:57:21-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2015/06/07/mestrado-a-verdadeira-graduacao</id>
+    <content type="html"><![CDATA[<p>Depois de mais de dois anos sem blogar, volto com um assunto que demanda um pouco de reflexão.</p>
 
 <p>Decidi fazer um mestrado porque acredito que me trará conhecimentos importantes
 na minha profissão e porque eu tenho interesse em dar aulas. E fico feliz de
@@ -48,3 +68,7 @@ algumas vezes, mas acredito que o sacrifício vai ser recompensado e a parte
 mais difícil (1º semestre) já está chegando ao fim.</p>
 
 <p>Desejem-me sorte.</p>
+]]></content>
+  </entry>
+  
+</feed>

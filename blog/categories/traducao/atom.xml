@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tradução | Herberth's blog]]></title>
+  <link href="http://herberthamaral.github.io/blog/categories/traducao/atom.xml" rel="self"/>
+  <link href="http://herberthamaral.github.io/"/>
+  <updated>2015-07-20T18:07:18-03:00</updated>
+  <id>http://herberthamaral.github.io/</id>
+  <author>
+    <name><![CDATA[Herberth Amaral]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sobre O jQuery Fundamentals]]></title>
+    <link href="http://herberthamaral.github.io/blog/2013/02/25/sobre-o-jquery-fundamentals/"/>
+    <updated>2013-02-25T12:00:00-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2013/02/25/sobre-o-jquery-fundamentals</id>
+    <content type="html"><![CDATA[<p>Comecei o processo de tradução do jQuery Fundamentals <a
+href="https://github.com/rmurphey/jqfundamentals/commit/fce468875d0b367f7021bfb7ef11d0fd48426638">há quase 3 anos</a>,
+quando meu antigo blog ainda não havia sido destruído pela minha incompetência (de não ter um backup em outro local) e
+da Webbynode (por ter apagado meu VPS sem aviso prévio).</p>
+
+<p>Durante o tempo que meu VPS ficou fora do ar, o link pro jQuery Fundamentals também. Agora eu estou retornando o link
+pro devido lugar.</p>
+
+<center><a href="http://herberthamaral.com/jquery-fundamentals-book-pt-BR.pdf" class="btn btn-inverse btn-large">
+<i class="icon-download-alt icon-white"></i>Download</a>
+</center>
+
+
+
+
+<p>&nbsp;</p>
+
+
+<p><strong>Nota importante:</strong> Apesar do <a href="https://github.com/herberthamaral/jqfundamentals-pt-BR">código do
+livro</a> não estar sendo mais mantido por mim, ele ainda se encontra em um repositório aberto. Quem quiser contribuir
+fique a vontade :-)</p>
+]]></content>
+  </entry>
+  
+</feed>
