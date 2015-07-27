@@ -4,7 +4,7 @@
   <title><![CDATA[Herberth's blog]]></title>
   <link href="http://herberthamaral.github.io/atom.xml" rel="self"/>
   <link href="http://herberthamaral.github.io/"/>
-  <updated>2015-07-20T18:07:18-03:00</updated>
+  <updated>2015-07-26T22:28:14-03:00</updated>
   <id>http://herberthamaral.github.io/</id>
   <author>
     <name><![CDATA[Herberth Amaral]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Saldo Da Visita Técnica à BH]]></title>
+    <link href="http://herberthamaral.github.io/blog/2015/07/26/saldo-da-visita-tecnica-a-bh/"/>
+    <updated>2015-07-26T21:28:31-03:00</updated>
+    <id>http://herberthamaral.github.io/blog/2015/07/26/saldo-da-visita-tecnica-a-bh</id>
+    <content type="html"><![CDATA[<p>Nos dias 21 e 22 deste mês um grupo de dezoito pessoas e eu fizemos uma viagem à BH com um intuito: conhecer melhor as iniciativas de startups da cidade. Boa parte dos custos da viagem do grupo foi bancado pelo SEBRAE, ao qual agradeço publicamente pela generosa e oportuna oferta.</p>
+
+<p>Fizemos quatro visitas: à Startup <a href="http://www.sympla.com.br/">Sympla</a>, à <a href="http://www.fumsoft.org.br/empreendedorismo/acelera-mg">Acelera</a>, ao <a href="http://www.techmallsa.com.br/">Techmall</a>, ao SEBRAE e ao <a href="http://www.lemonademg.com/">Lemonade</a>. Além disso, fiz por conta própria uma visita ao novo escritório da <a href="http://rockcontent.com/">RockContent</a> e à <a href="https://www.meliuz.com.br/">Méliuz</a>.</p>
+
+<h2>Sympla</h2>
+
+<p>A primeira visita já começou espetacular. O <a href="https://www.linkedin.com/in/rscartacho">Rodrigo Cartacho</a> abriu as portas da Sympla e contou sua experiência no exterior (ele morou na Hungria por 10 anos) e na criação da empresa.</p>
+
+<p>Só por contar sua história, o Rodrigo nos deu uma aula. O ponto mais importante da aula do Rodrigo foi quando ele disse: &ldquo;você não precisa fazer o MVP completo&hellip; basta fazer o M&rdquo;. O que ele quis dizer é que talvez não seja necessário investir uma quantia alta de dinheiro fazendo um MVP sendo que há meios mais baratos e rápidos de validarem seu modelo. De fato, vimos como isso funcionaria no dia seguinte (continue lendo).</p>
+
+<p>Hoje a Sympla conta com mais de 40 funcionários e almeja ser a maior plataforma para eventos do Brasil.</p>
+
+<h2>Acelera</h2>
+
+<p>O Acelera é um programa de aceleração bem interessante que toma lugar na Fumsoft. Fomos apresentados ao programa e à uma startup que faz parte dele, a <a href="http://onecloudportal.com.br/">OneCloud</a>, que tem como foco a unificação do gerenciamento de recursos computacionais nas nuvens de diferentes provedores.</p>
+
+<p>Inicialmente o programa me pareceu um pouco engessado demais para ter algum resultado, mas mudei de opinião quando vi que há negócios com grande potencial sendo desenvolvidos (e os que já saíram) por lá.</p>
+
+<h2>Lemonade/Techmall</h2>
+
+<p>O Lemonade é um programa de aceleração que acontece nas dependências do Techmall. Rotineiramente, o Lemonade trás pessoas com conteúdo para palestrar no local. No dia 21, tivemos a honra de assistir uma palestra do Dr. Nívio Ziviani (sim, aquela lenda dos algoritmos :). A palestra do Dr. Nívio tinha como tema a geração de riqueza através do conhecimento em que ele nos expos estatísticas de como as pesquisas impactam no PIB de países desenvolvidos com uma comparação com o Brasil. Além disso, o Dr. Nívio citou exemplos de empresas que ele ajudou a criar e que criaram riqueza nos moldes que ele defende.</p>
+
+<p>Uma das perguntas que fiz ao Dr. Nívio foi a seguinte: &ldquo;O sr. disse, basicamente, que a Akwan não chegou a ser um player global na área de buscadores da web por causa do acidente geográfico de ter nascida no Brasil?&rdquo;. A resposta foi um veemente &ldquo;Sim&rdquo;. Segundo o professor &ldquo;Na época não havia investidores no Brasil como se tinha no exterior. Precisávamos de uma infraestrutura de alguns milhões de dólares e não tínhamos ninguém para bancar, nem mesmo o BNDES&rdquo;. Empreender no Brasil é um jogo na dificuldade &ldquo;hard&rdquo; por causa dessas e outras. Felizmente há um horizonte de mudanças neste cenário.</p>
+
+<h2>SEBRAE</h2>
+
+<p>Infelizmente não tive como ficar durante toda a extensão da visita ao SEBRAE porque tinha uma visita marcada à Méliuz. Mas esta visita mostrou mais uma vez como que uma conversa de corredor pode render mais que uma palestra inteira. O João Marinheiro, do <a href="http://www.theplant.com.br/">ThePlant</a> nos mostrou várias técnicas de validação de negócios que vão desde a venda de inexistentes cursos de cerveja durante um Startup Weekend ao uso de ad-sense para coletar feedback prematuro de possíveis clientes.</p>
+
+<h2>Méliuz</h2>
+
+<p>A minha visita à Méliuz foi acidental: o Leandro Alves, CTO da empresa, estava em busca de um/a DevOps para o time e me mandou um e-mail. Na cara de pau, pedi para visitar a empresa e tive a grata surpresa que não se tratava de uma empresa pequena, mas uma empresa com dezenas de pessoas trabalhando. Tomamos café e conversamos sobre os requisitos que a pessoa que preencherá a vaga de DevOps terá que ter. Recomendei um conhecido e espero que seja uma boa sugestão.</p>
+
+<h2>RockContent</h2>
+
+<p>Eu sabia que a Rock estava indo bem, mas não sabia que era tanto :). Tive a grata surpresa de visitar o HQ da Rock na rua Alagoas, bem no coração da Savassi, com o André e o Alessandro do <a href="http://www.englishexperts.com.br/">EnglishExperts</a>. Em breve o escritório deles contará com ~800m² de área útil e, segundo o Edmar (que nos recebeu extremamente bem), deve servir até o fim do ano que vem (!!!).</p>
+
+<h2>Resumo da ópera</h2>
+
+<p>Não tenho como agradecer ao SEBRAE pela experiência fornecida. Veio em boa hora. Percebi que, estupidamente, me afastei de BH e que isso me custou caro em termos de boas experiências. Fosse três ou quatro meses atrás, eu teria certeza que esse tipo de viagem seria uma espécie de viagem de turismo para quem fosse. Fico extremamente satisfeito em saber que eu estaria errado se dissesse isso hoje.</p>
+
+<p>Espero voltar em BH em breve para dar continuidade às boas experiências vividas.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mestrado: A Verdadeira Graduação]]></title>
